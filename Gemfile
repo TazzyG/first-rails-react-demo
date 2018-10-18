@@ -42,6 +42,11 @@ gem 'semantic-ui-sass'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 
+# gems required for React
+gem "react_on_rails", "11.0.0"
+gem "webpacker", "~> 3"
+gem 'mini_racer', platforms: :ruby
+
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
